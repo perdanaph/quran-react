@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'arab-font';
+  src: url('./assets/fonts/_PDMS_Saleem_QuranFont.ttf') format('ttf');
+}
+
+* {
+  font-family: 'Sen', sans-serif;
+}
+
+.font-arab {
+  font-family: 'arab-font', sans-serif;
+}
